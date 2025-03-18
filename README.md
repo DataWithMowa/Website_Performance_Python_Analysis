@@ -190,7 +190,6 @@ Here’s a rundown of each column and what it tells us:
 <details>
   <summary>Click to expand</summary>
   <br>
-</details>
 
 Before analysis, the raw dataset underwent a thorough cleaning and preparation phase using Microsoft Excel to ensure data clarity and consistency. The following transformations were applied:
 
@@ -235,10 +234,13 @@ The EDA involved analyzing website traffic data, including traffic sources, user
 
 * **Traffic Sources:** Social media is the dominant traffic source, followed by direct website visits and organic search.
   <img src="Charts Created/Marketing Channels Chart.png" alt="Marketing Channel Chart" width="auto">
+  ![Marketing Channel Chart](Charts Created/Marketing Channels Chart.png)
 * **Demographics:**
     * Young adults (20s-30s) are the largest user group.
       <img src="Charts Created/Users By Age Group.png" alt="User By Age Group Chart" width="auto">
+      ![User By Age Group Chart](Charts Created/Users By Age Group.png)
     * A near-equal distribution of male and female users.
+      
     * Australia, the U.S., Nigeria, and South Africa are the top geographic locations.
     * Traffic is evenly distributed across mobile, desktop, and tablet devices.
 * **Temporal Patterns:**
