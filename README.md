@@ -39,6 +39,8 @@ Using Python and data-driven techniques, this project will provide insights to o
 <details>
   <summary>Click to expand</summary>
 
+### First, check out the code and its output here: [925 Website Performance Analysis.ipynb](https://colab.research.google.com/drive/1qg95To4QTQlNtKyN9Jb9Mns9slKGOuOD?usp=sharing)
+  
 ## Here are the Setup and Execution instructions:
 ### Prerequisites
 
@@ -95,16 +97,16 @@ Before you can run this code, you'll need to have the following installed:
     jupyter notebook
     ```
 2.  Your web browser will open, displaying the Jupyter Notebook interface.
-3.  Navigate to and open the `Web Performance Analysis.ipynb` file.
+3.  Navigate to and open the `925 Website Performance Analysis.ipynb` file.
 4.  Run the cells in the notebook sequentially by clicking "Cell" > "Run All" or by pressing Shift + Enter in each cell.
 
 ### Data and Configuration
 
-* Find and download the datasets used in this analysis in the `Datasets/` directory.
+* Find and download the dataset used in this analysis in the `Dataset/` directory.
   
 ### Jupyter Notebook
 
- * Here is the Jupyter source file for this project: [E2E_Courier_Charges_Analysis_(1).ipynb](https://colab.research.google.com/drive/1tF-kgX60R8JPRfwp9uhJmxVIVtpQZZRW?usp=sharing)
+ * Here is the Jupyter source file for this project: [925 Website Performance Analysis.ipynb](https://colab.research.google.com/drive/1qg95To4QTQlNtKyN9Jb9Mns9slKGOuOD?usp=sharing)
 </details>
 
 ## Data Overview:
@@ -167,12 +169,6 @@ Here’s a rundown of each column and what it tells us:
 </details>
 
 ## Tools and Libraries Used:
-<details>
-  <summary>Click to expand</summary>
-  <br>
-  Got it! Here's the expanded "Tools and Libraries Used" section with the added libraries and their descriptions:
-
-## Tools and Libraries Used:
 
 <details>
   <summary>Click to expand</summary>
@@ -194,4 +190,151 @@ Here’s a rundown of each column and what it tells us:
 <details>
   <summary>Click to expand</summary>
   <br>
+</details>
+
+Before analysis, the raw dataset underwent a thorough cleaning and preparation phase using Microsoft Excel to ensure data clarity and consistency. The following transformations were applied:
+
+* **Column Header Renaming:**
+    * "Session primary channel group" was renamed to "Marketing Channels" for improved clarity.
+    * "Date + hour (YYYYMMDDHH)" was renamed to "Date + Hour (YYYY-MM-DD-HH)" to adhere to a more standard date format.
+    * "Users" was renamed to "No. Of Users".
+    * "Session" was renamed to "No. Of Sessions of Users".
+    * "Average engagement time per session" was renamed to "Average Engagement Time Per Session in Seconds" for increased specificity.
+    * "Engaged sessions per user" was renamed to "Engaged Sessions Per User".
+    * "Engagement rate" was renamed to "Engagement Rate".
+    * "Events per session" was renamed to "Events Per Session".
+
+* **Column Value Renaming:**
+    * "Direct" (within the "Marketing Channels" column) was renamed to "Direct Website" for better context.
+    * "Organic Social" was renamed to "From Social Media".
+    * "Email" was renamed to "Email Marketing".
+    * "Referral" was renamed to "From Another Website".
+
+* **Date and Time Formatting:**
+    * The "Date + Hour (YYYY-MM-DD-HH)" column values were converted to a date and time format.
+    * Custom formatting was applied to display the date and hour as YYYY-MM-DD-HH.
+
+* **Data Alignment and Formatting:**
+    * The alignment for the columns "Average Engagement Time Per Session in Seconds", "Engaged Sessions Per User", "Events Per Session", and "Engagement Rate" was corrected for visual consistency.
+
+These steps were crucial for ensuring the dataset was accurate, well-structured, and ready for subsequent analysis.
+</details>
+
+## Exploratory Data Analysis(EDA):
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+**Objective:**
+The primary objective of this EDA was to understand the 925 Fitness Company website's traffic patterns, user demographics, and engagement metrics to identify optimization opportunities.
+
+**Methodology:**
+The EDA involved analyzing website traffic data, including traffic sources, user demographics (age, gender, location, device type), temporal patterns (time of day, day of week, month), user engagement metrics (average engagement time, engaged sessions, events per session, engagement rate), and channel performance. Correlation analysis was also performed to understand the relationships between engagement metrics.
+
+**Key Findings:**
+
+* **Traffic Sources:** Social media is the dominant traffic source, followed by direct website visits and organic search.
+  <img src="Charts Created/Marketing Channels Chart.png" alt="Marketing Channel Chart" width="auto">
+* **Demographics:**
+    * Young adults (20s-30s) are the largest user group.
+      <img src="Charts Created/Users By Age Group.png" alt="User By Age Group Chart" width="auto">
+    * A near-equal distribution of male and female users.
+    * Australia, the U.S., Nigeria, and South Africa are the top geographic locations.
+    * Traffic is evenly distributed across mobile, desktop, and tablet devices.
+* **Temporal Patterns:**
+    * Peak traffic occurs at 11 AM and 9 PM.
+    * Weekday traffic is significantly higher than weekend traffic, with Wednesday being the peak day.
+    * April had a significantly higher amount of traffic than May.
+* **User Engagement:**
+    * April 17, 2024, at 18:00 had the highest number of user sessions.
+    * "Organic Video" and "From Another Website" have higher engagement rates and events per session compared to social media.
+* **Correlation Analysis:**
+    * A strong positive correlation exists between "Engaged Sessions Per User" and "Engagement Rate."
+</details>
+
+## Data Analysis:
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+**Traffic Source Optimization:**
+* Analysis of traffic sources led to recommendations for optimizing each channel, focusing on leveraging social media, improving direct website experience, and enhancing organic search presence.
+* Recommendations were made to address the large drop in traffic between April and May.
+**Demographic Targeting:**
+* Demographic analysis led to recommendations for tailoring content and marketing strategies to specific age groups, genders, and geographic locations.
+* Device type analysis showed the importance of a multi-device experience.
+**Temporal Pattern Optimization:**
+* Analysis of traffic patterns by time of day and day of week resulted in recommendations for scheduling content and promotions during peak hours and weekdays.
+* The large traffic drop from April to May was also analyzed.
+**User Engagement Improvement:**
+* Correlation analysis highlighted the importance of improving "Engaged Sessions Per User" to boost overall engagement rates.
+* Channel performance was analysed.
+**Website Traffic Forecasting:**
+* SARIMA model was used to forecast website traffic for the next 24 hours.
+* PACF and ACF charts were used to determine SARIMA model parameters.
+</details>
+
+## Key Findings & Insights
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+* Social media is a powerful traffic driver, but engagement varies across channels.
+* Understanding user demographics is crucial for targeted marketing and content creation.
+* Temporal traffic patterns offer opportunities for strategic content scheduling.
+* Improving engaged sessions is key to boosting overall engagement rates.
+* A large and sudden drop in traffic requires urgent investigation.
+* The SARIMA model can provide valuable traffic forecasts.
+</details>
+
+## Recommendations:
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+* Implement strategies to boost engagement on social media.
+* Tailor content and marketing to specific demographic groups.
+* Schedule content and promotions during peak traffic times.
+* Focus on improving engaged sessions through interactive content.
+* Investigate and correct the large traffic drop from April to May.
+* Leverage SARIMA model forecasts for resource planning.
+* Optimize the website for all device types.
+* Focus on content strategy, and referral relationships to increase engagement.
+</details>
+
+## Limitations:
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+* The analysis is based on available website traffic data, which may have limitations in accuracy or completeness.
+* The SARIMA model forecasts are based on historical data and may not account for unforeseen events.
+* The data used in this project was cleaned using Microsoft Excel, and that process may contain limitations.
+* The sudden extreme drop in traffic from April to May makes further analysis difficult.
+</details>
+  
+## Summary:
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+This project provided a comprehensive analysis of the 925 Fitness Company website's performance, covering traffic sources, demographics, engagement, and forecasting. The analysis revealed key insights into user behavior and identified opportunities for optimization. Recommendations were provided to enhance website performance and user engagement.
+</details>
+
+## Challenges and Lessons Learned:
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+* Resolved issues with Plotly chart rendering in Google Colab by using `fig.show(renderer="colab")`.
+* Understood the importance of thorough documentation and the time commitment involved.
+
+**Why Google Colab?**
+
+* Google Colab provides a free and accessible environment for running Python code and sharing notebooks.
+* Although local jupyter notebooks work well, Google colab allows for easy sharing of the project.
+
+**Documenting on GitHub**
+
+* Documenting on GitHub is a valuable but time-consuming process that enhances project transparency and reproducibility.
 </details>
