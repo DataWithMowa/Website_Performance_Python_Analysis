@@ -234,24 +234,40 @@ The EDA involved analyzing website traffic data, including traffic sources, user
 
 * **Traffic Sources:** Social media is the dominant traffic source, followed by direct website visits and organic search.
   <img src="Charts Created/Marketing Channels Chart.png" alt="Marketing Channel Chart" width="auto">
-  ![Marketing Channel Chart](Charts Created/Marketing Channels Chart.png)
+  
 * **Demographics:**
     * Young adults (20s-30s) are the largest user group.
       <img src="Charts Created/Users By Age Group.png" alt="User By Age Group Chart" width="auto">
-      ![User By Age Group Chart](Charts Created/Users By Age Group.png)
+      
     * A near-equal distribution of male and female users.
+      <img src="Charts Created/Users By Gender.png" alt="User By Gender Chart" width="auto">
       
     * Australia, the U.S., Nigeria, and South Africa are the top geographic locations.
+      <img src="Charts Created/Users By Location.png" alt="User By Location Chart" width="auto">
+      
     * Traffic is evenly distributed across mobile, desktop, and tablet devices.
+      <img src="Charts Created/Users By Device Type.png" alt="User By Device Type Chart" width="auto">
+      
 * **Temporal Patterns:**
     * Peak traffic occurs at 11 AM and 9 PM.
+      <img src="Charts Created/Traffic by Time Of Day.png" alt="Traffic By Time of Day Chart" width="auto">
+      
     * Weekday traffic is significantly higher than weekend traffic, with Wednesday being the peak day.
+      <img src="Charts Created/Traffic By Day of Week.png" alt="Traffic By Day Of Week Chart" width="auto">
+      
     * April had a significantly higher amount of traffic than May.
+      <img src="Charts Created/Traffic By April & May.png" alt="Traffic By April & May Chart" width="auto">
+      
 * **User Engagement:**
     * April 17, 2024, at 18:00 had the highest number of user sessions.
+      <img src="Charts Created/engagement_metrics_matplotlib.png" alt="Engagement Metrics Chart" width="auto">
+      
     * "Organic Video" and "From Another Website" have higher engagement rates and events per session compared to social media.
+      <img src="Charts Created/Channel_performance_Metrics.png" alt="Channel Perfromance Metrics Chart" width="auto">
+      
 * **Correlation Analysis:**
     * A strong positive correlation exists between "Engaged Sessions Per User" and "Engagement Rate."
+      <img src="Charts Created/engagement_metrics_correlation_heatmap.png" alt="Correlation Chart" width="auto">
 </details>
 
 ## Data Analysis:
@@ -289,11 +305,16 @@ The EDA involved analyzing website traffic data, including traffic sources, user
 * The SARIMA model can provide valuable traffic forecasts.
 </details>
 
-## Recommendations:
+## Recommendations for 925 Fitness Company Website Optimization:
 <details>
   <summary>Click to expand</summary>
  <br>
-
+  
+### Summarized Recommendations
+<details>
+  <summary>Click to expand</summary>
+ <br>
+  
 * Implement strategies to boost engagement on social media.
 * Tailor content and marketing to specific demographic groups.
 * Schedule content and promotions during peak traffic times.
@@ -302,6 +323,115 @@ The EDA involved analyzing website traffic data, including traffic sources, user
 * Leverage SARIMA model forecasts for resource planning.
 * Optimize the website for all device types.
 * Focus on content strategy, and referral relationships to increase engagement.
+</details>
+
+### Detailed Recommendations
+<details>
+  <summary>Click to expand</summary>
+ <br>
+
+**1. Enhance Social Media Engagement (Dominant Traffic Source):**
+
+    * Implement a structured social media content calendar with 2-3 daily posts across key platforms (Instagram, Facebook, TikTok).
+    * Vary content formats:
+        * Short, high-intensity workout videos (15-30 seconds) optimized for mobile viewing.
+        * "Trainer Tips" graphics with concise, actionable fitness and nutrition advice.
+        * "Member Spotlight" stories featuring user success stories and testimonials.
+        * "Behind-the-Scenes" glimpses into class preparation, trainer routines, and gym culture.
+    * Utilize Instagram Stories and TikTok/Reels for daily micro-content, incorporating interactive elements like polls, quizzes, and Q&A sessions.
+    * Launch interactive campaigns (e.g., "30-Day Fitness Challenge") with branded hashtags, encouraging user participation and content sharing.
+    * Partner with relevant fitness influencers (local and micro-influencers) for sponsored posts, giveaways, and collaborative content creation.
+    * Incorporate clear calls to action (CTAs) within social media posts, directing users to specific website pages (e.g., class schedules, blog posts, membership sign-ups).
+    * Conduct weekly live workouts or Q&A sessions with trainers on social media platforms, promoting exclusive website content or offers during the live event.
+    * Boost high-performing organic posts with targeted paid advertising, linking directly to high-converting website pages.
+    * Create visually appealing, shareable content (e.g., motivational quotes, infographics) with subtle website branding.
+    * Actively engage with followers through prompt responses to comments and direct messages, fostering a sense of community.
+    * Add a live social feed to the website homepage.
+    * Promote website exclusive content on social media.
+
+**2. Optimize Direct Website Experience (Second Highest Traffic Source):**
+
+    * Conduct a website speed audit and implement optimizations to reduce page load times (e.g., image compression, caching).
+    * Simplify website navigation and ensure intuitive user flows for key actions (e.g., class registration, membership purchase).
+    * Develop a "Members-Only" section with exclusive content (e.g., advanced workout videos, personalized nutrition plans, community forums).
+    * Create a clean and modern design.
+
+**3. Enhance Organic Search Presence (Third Highest Traffic Source):**
+
+    * Perform keyword research to identify relevant search terms used by target audiences (e.g., "fitness classes near me," "home workout routines").
+    * Optimize website content (blog posts, landing pages, meta descriptions) with targeted keywords, ensuring natural integration.
+    * Develop a comprehensive blog strategy focused on creating valuable, searchable content (e.g., "5 Beginner Exercises for Weight Loss," "How to Choose the Right Gym").
+    * Improve SEO through backlinking, and improved website structure.
+
+**4. Strengthen Referral Traffic (From Another Website):**
+
+    * Identify and reach out to relevant fitness bloggers, local businesses, and influencers for collaboration opportunities.
+    * Develop guest post content for external websites, incorporating backlinks to the 925 Fitness Company website.
+    * Offer partnership perks (e.g., discount codes, affiliate programs) to incentivize referrals.
+
+**5. Investigate and Optimize Uncategorized Traffic:**
+
+    * Implement UTM tracking codes to accurately identify the sources of uncategorized traffic (e.g., QR codes, offline campaigns).
+    * Analyze the performance of each identified source and optimize accordingly.
+
+**6. Leverage Organic Video Content:**
+
+    * Embed YouTube or TikTok videos (e.g., workout teasers, trainer introductions) directly onto the website.
+    * Incorporate clear CTAs within video content, directing users to relevant website pages (e.g., "Watch the Full Video," "Sign Up for More").
+
+**7. Improve Email Marketing Effectiveness:**
+
+    * Optimize website sign-up forms with compelling incentives (e.g., free workout guides, exclusive discounts).
+    * Develop personalized email campaigns with targeted content (e.g., workout tips, success stories, reactivation offers).
+    * Create a welcome email sequence.
+    * Segment email list for more personalized email campaigns.
+
+**8. Tailor Content and Marketing to Specific Demographics:**
+
+    * Develop content and marketing campaigns that resonate with the dominant young adult demographic (20s-30s), focusing on short, high-energy workouts and social media trends.
+    * Create convenient and practical workout programs for busy adults (35-50), incorporating quick HIIT sessions and meal prep tips.
+    * Develop low-impact fitness programs and content tailored to older adults (50+), focusing on stretching, mobility, and longevity.
+    * Ensure that all demographics are represented in adds, and on the website.
+    * Run surveys and focus groups.
+
+**9. Optimize for Geographic Locations:**
+
+    * Develop localized content and marketing campaigns for top-performing regions (Australia, U.S., Nigeria, South Africa).
+    * Adjust content and promotions based on seasonal fitness trends and local preferences.
+    * Offer localized pricing, and payment options.
+    * Use location based keywords for SEO.
+    * Partner with local influencers.
+
+**10. Ensure a Seamless Multi-Device Experience:**
+
+    * Conduct thorough testing to ensure website responsiveness across all screen sizes (mobile, desktop, tablet).
+    * Optimize mobile experience with fast load speeds, thumb-friendly navigation, and mobile-friendly checkout.
+    * Enhance desktop experience with high-quality visuals, interactive content, and optimized landing pages.
+    * Optimize tablet experience with touchscreen usability, balanced layouts, and visually rich content.
+    * Use device specific adds.
+    * Enable cross device logins.
+
+**11. Optimize for Peak Traffic Times:**
+
+    * Schedule social media posts, email campaigns, and promotional offers to coincide with peak traffic times (11 AM and 9 PM).
+    * Provide live chat support and chatbot assistance during peak hours.
+    * Run paid advertising campaigns during peak hours for maximum reach and conversion.
+    * Optimize website performance and load speeds to handle peak traffic loads.
+    * Send personalized push notifications.
+
+**12. Address the April to May Traffic Drop:**
+
+    * Conduct a thorough data verification process to identify any errors or inconsistencies.
+    * Perform a technical audit of the website and platform to identify potential issues.
+    * Analyze marketing campaigns and activities from April and May to pinpoint any significant differences.
+    * Gather user feedback through surveys and polls to understand potential causes.
+    * Conduct a competitive analysis.
+    * Segment the data to find where the drop occured.
+    * Communicate with users.
+
+By implementing these detailed recommendations, 925 Fitness Company can significantly improve its website performance, user engagement, and overall online presence.
+</details>
+
 </details>
 
 ## Limitations:
