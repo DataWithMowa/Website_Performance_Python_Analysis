@@ -26,7 +26,7 @@ The goal of this project is to analyze, diagnose, and optimize 925 Fitness Compa
 2. How long do people stay on the site, and when is it busiest? (Session Analysis)
 3. What do users do on the site, and do they find it engaging? (User Engagement and Behavior)
 4. Which strategies are most effective in driving traffic to the site? (Channel Performance)
-5. How many visitors can we expect in the next day? (Website Traffic Forecasting)
+5. How many visits can we expect in the next day? (Website Traffic Forecasting)
 
 Using Python and data-driven techniques, this project will provide insights to optimize website speed, enhance user experience, and improve traffic acquisition strategies.
 </details>
