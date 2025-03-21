@@ -98,7 +98,7 @@ Before you can run this code, you'll need to have the following installed:
 
 ### Data and Configuration
 
-* Find and download the dataset used in this analysis in the `Dataset/` directory.
+* Find and download the "updated dataset" used in this analysis in the `Dataset/` directory.
   
 ### Jupyter Notebook
 
@@ -189,7 +189,7 @@ This combination of tools helped ensure accurate analysis and valuable insights.
   <summary>Click to expand</summary>
   <br>
 
-Before starting the analysis, I cleaned and prepared the raw dataset using **Microsoft Excel** to ensure accuracy and consistency. Here’s what was done:  
+Before starting the analysis, I cleaned and prepared the raw dataset using **Microsoft Excel** to ensure accuracy and consistency. You can find and download the "updated dataset" used in this analysis in the `Dataset/` directory  Here’s what was done:  
 
 ### **1. Renaming Column Headers**  
 - "Session primary channel group" → **"Marketing Channels"** (for clarity)  
