@@ -535,7 +535,7 @@ Every project comes with its own set of hurdles, and this one was no different. 
 2. **GitHub Documentation and Time Management**  
    I didn’t expect the documentation process to take as long as it did! Structuring it, writing clear explanations, and staying consistent was more demanding than I thought. I realized how important it is to dedicate time for documentation from the start, as it plays a huge role in making a project understandable and reproducible.
 
-   **Lesson learned:** Documentation isn’t just a side task—it’s a core part of any project. Organizing it well and paying attention to small details can really make a difference.
+   **Lesson learned:** Documentation isn’t just a side task, it’s a core part of any project. Organizing it well and paying attention to small details can really make a difference.
 
 These experiences taught me the value of adaptability, persistence, and learning along the way. I’m looking forward to applying these lessons in future projects!
 
