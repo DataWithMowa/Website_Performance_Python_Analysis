@@ -4,7 +4,7 @@
   <img src="OIP.jpeg"="Web Performance Image" width="autp" height="auto">
 </div>
 
-## Introduction: 
+## 📖 Introduction: 
 <details>
   <summary>Click to expand</summary>
   <br>
@@ -15,7 +15,7 @@ This project uses Python to check how well the 929 Fitness website is performing
 
 </details>
 
-## Project Objective:
+## 🎯 Project Objective:
 <details>
   <summary>Click to expand</summary>
  <br>
@@ -31,7 +31,7 @@ The goal of this project is to **check, improve, and speed up** the **925 Fitnes
 This project will use **Python and data analysis** to find ways to make the **925 Fitness** website faster, improve user experience, and attract more visitors.
 </details>
 
-## How to Run The Source Code Locally:
+## 🖥️ How to Run The Source Code Locally:
 <details>
   <summary>Click to expand</summary>
 
@@ -105,7 +105,7 @@ Before you can run this code, you'll need to have the following installed:
  * Here is the Jupyter source file for this project: [925 Website Performance Analysis.ipynb](https://colab.research.google.com/drive/1qg95To4QTQlNtKyN9Jb9Mns9slKGOuOD?usp=sharing)
 </details>
 
-## Data Overview:
+## 📊 Data Overview:
 <details>
   <summary>Click to expand</summary>
  <br>This dataset is a big collection of information about how people are using a website. It’s like a logbook that tracks who’s visiting, when, how they got there, and what they’re doing. It covers stuff like marketing channels, dates, user counts, session details, engagement stats, and info about the visitors themselves (like age, gender, location, and device). 
@@ -164,7 +164,7 @@ Here’s a rundown of each column and what it tells us:
 </details>
 </details>
 
-## Tools and Libraries Used:
+## 🛠️ Tools and Libraries Used:
 
 <details>
   <summary>Click to expand</summary>
@@ -183,7 +183,7 @@ Here’s a rundown of each column and what it tells us:
 This combination of tools helped ensure accurate analysis and valuable insights.
 </details>
 
-## Data Cleaning and Preparation:
+## 🧹 Data Cleaning and Preparation:
 
 <details>
   <summary>Click to expand</summary>
@@ -216,7 +216,7 @@ Before starting the analysis, I cleaned and prepared the raw dataset using **Mic
 These steps were essential to make sure the data was clean, well-organized, and ready for analysis.
 </details>
 
-## Exploratory Data Analysis(EDA):
+## 🔍 Exploratory Data Analysis(EDA):
 <details>
   <summary>Click to expand</summary>
  <br>
@@ -274,7 +274,7 @@ In this analysis, I looked at website traffic data to see where visitors come fr
    
 </details>
 
-## Data Analysis:
+## 📈 Data Analysis:
 <details>
   <summary>Click to expand</summary>
  <br>
@@ -313,7 +313,7 @@ This section explains how I analyzed data from the **925 Fitness** website to fi
 - I cleaned and prepared the data using **Microsoft Excel** before analysis.
 </details>
 
-## Key Findings & Insights
+## 💡 Key Findings & Insights
 <details>
   <summary>Click to expand</summary>
  <br>
@@ -370,7 +370,7 @@ This section explains how I analyzed data from the **925 Fitness** website to fi
 
 </details>
 
-## Recommendations:
+## ✅ Recommendations:
 <details>
   <summary>Click to expand</summary>
  <br>  
@@ -479,7 +479,7 @@ By implementing these strategies, 925 Fitness Company can boost website traffic,
 
 </details>
 
-## Limitations:
+## ⚠️ Limitations:
 <details>
   <summary>Click to expand</summary>
  <br>
@@ -520,7 +520,7 @@ While this analysis gives useful insights into the 925 Fitness Company website's
 These limitations should be considered when using the recommendations, as they are based on the available data and current situation.
 </details>
   
-## Challenges and Lessons Learned:
+## 🚀 Challenges and Lessons Learned:
 <details>
   <summary>Click to expand</summary>
  <br>
@@ -541,4 +541,4 @@ These experiences taught me the value of adaptability, persistence, and learning
 
 </details>
 
-## Thank you for reading! 😊
+## 😊 Thank you for reading! 😊
