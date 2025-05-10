@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Website Performance Analysis With Python</h1>
+<h1 style="text-align: center;">🖥️ Website Performance Analysis With Python</h1>
 
 <div align="center">
   <img src="OIP.jpeg"="Web Performance Image" width="autp" height="auto">
@@ -541,4 +541,4 @@ These experiences taught me the value of adaptability, persistence, and learning
 
 </details>
 
-## 😊 Thank you for reading! 😊
+## 😊 Thank you for reading!
